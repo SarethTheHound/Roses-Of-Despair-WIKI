@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Roses Of Despair WIKI</title>
+  <style>
+    @font-face {
+      font-family: 'CyrillicGoth';
+      src: url('fonts/CyrillicGoth.ttf') format('ttf');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      font-family: 'CyrillicGoth', sans-serif;
+      background-color: black;
+      color: black;
+    }
+  </style>
+  <link rel="icon" href="images/rod-icon.png">
+  <style>
+    body {
+      font-family: CyrillicGoth;
+      margin: 0;
+      padding: 0;
+	  background-color: black;
+      background-image: url('images/bgimg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    header {
+  background-image: url('images/header-bg.png'); /* фон */
+  background-size: cover;       /* растягиваем по размеру */
+  background-repeat: no-repeat; /* без повторений */
+  background-position: center;  /* центрируем */
+  color: gold;
+  padding: 20px;                /* можно увеличить отступы для красоты */
+  text-align: center;           /* если хочешь выровнять заголовок по центру */
+  text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  2px 0 black,
+     1px  2px 0 black;
+	 
+}
+
+header h1 {
+  font-size: 40px;      /* размер заголовка */
+  font-weight: bold;    /* сделаем жирным, если нужно */
+  margin: 0;            /* уберём лишние отступы */
+  color: gold;          /* у тебя уже задано в header */
+  text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  2px 0 black,
+     1px  2px 0 black;  /* чёрная обводка */
+}
+
+    .container {
+      display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  align-items: flex-start; /* ✅ элементы подстраиваются по содержимому */
+    }
+
+    .content {
+  flex: 3;
+  margin-right: 20px;
+  background-image: url('images/fon-head.png');
+  background-size: 100% 100%;       /* Растягивает фон по ширине и высоте блока */
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 70px;
+  border-radius: 4px;
+  color: black;
+  text-shadow: 0 1px 2px black;
+    }
+
+    .infobox {
+  flex: 0 0 auto; /* ✅ блок занимает только свой размер, не растягивается */
+  background-image: url('images/bg-stat.png'); /* ✅ фон-картинка */
+  background-size: 100% 100%; /* растягиваем под размер блока */
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid black; /* общая чёрная рамка */
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center; /* чтобы картинка и текст были по центру */
+  color: black; /* текст поверх фоновой картинки */
+}
+
+.infobox img {
+  width: 300px;    /* фиксированная ширина */
+  height: auto;    /* высота пропорционально */
+  margin: 20px auto; /* центрируем и добавляем отступы */
+  display: block;
+}
+
+.infobox p {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.infobox table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.infobox table td {
+  padding: 6px 10px;
+  border: 1px solid black; /* рамки остаются черные */
+  background: transparent; /* ✅ фон прозрачный, видно фон bg-stat.png */
+}
+
+.infobox table td:first-child {
+  font-weight: normal; 
+  background: transparent; /* ✅ убираем белую заливку */
+}
+
+.infobox .infobox-caption {
+  font-size: 30px !important;  /* увеличим и принудительно применим */
+  font-weight: normal;
+  color: black;
+  margin: 10px 0 15px 0;
+  text-align: center;
+  text-shadow: 0 1px 2px black;
+}
+
+
+    h1 {
+      margin-top: 0;
+      font-size: 28px;
+	  font-weight: normal;
+    }
+
+    h2 {
+      border-bottom: 2px solid black;
+      padding-bottom: 5px;
+      margin-top: 30px;
+	  font-weight: normal;
+      color: black;
+      text-shadow: 0 1px 2px black;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    table td {
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+	  text-shadow: 0 1px 2px black;
+	  color: black;
+    }
+
+    table td:first-child {
+      font-weight: normal;
+      background-color: #f0f0f0;
+      width: 40%;
+	  text-shadow: 0 1px 2px black;
+	  color: black;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      padding: 20px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Roses Of Despair Wiki</h1>
+  </header>
+
+  <div class="container">
+    <div class="content">
+      <h1>Виктор Адносский</h1>
+      <p>Виктор - герцог города Адносс что в государстве Святой церкви. Сын Дмитрия, бывшего герцогом до него, заправляющим городом и учавствовавшим в войне против Каталона в 1871г от Великой войны.
+	  Виктор унаследовал титул отца после его гибели в 1887г в ходе загадочного убийства. На тот момент Виктору было 23 года. С тех пор прошло несколько лет, и сейчас Виктор является полноправным
+	  мэром Адносса - города под стеной.</p>
+
+      <h2>Известные события</h2>
+      <p>После гибели отца Виктор жил в поместье на юге, в нескольких днях пути от города. Не смотря на унаследованный титул отца, он не мог стать управленцем города пока Свяьая церковь не назначила его.
+	  Помимо титула, молодой герцог унаследовал телохранителя отца - молчаливого худощавого мужчину с невероятными способностями к скорости с неизвестным происхождением. После наводнения темных лесов в землях
+	  поместья чудовищами и нежитью, Виктор бежал в Адносс, заручившись поддержкой группы искателей приключений называемой себя "Шипы отчаяния". Позже эта группа сыграла большую роль в становлении Виктора правителем
+	  Адносса и защите города от святой нежити</p>
+
+      <h2>Интересные факты</h2>
+      <p>-Семья Виктора поколениями была правителями Адносса, из-за чего уже очень давно обрела фамильное имя в честь названия города
+	  -Виктор - единственный сын герцога Дмитрия, а также последний в роду семью Адносских
+	  -Татьяна, мать Виктора, очень любила красные розы, поэтому всё загородное поместье Адносских усеяно ими, не смотря на крайне тяжелую выживаемость этих растений в регионе Святой Церкви
+	  -Виктор обучался фихтованию и делал попытки в освоении магии, но его хилое телосложение и вера в людей преобладающее над верой в богов не позволила ему сделать успехов ни в одном из этих ремёсел
+	  -До рождения, Виктора хотели назвать Александр, но так получилось что он родился в день празднования победы в последней войне Святой Церкви и Каталона, из-за чего приняли решения назвать его в честь праздника</p>
+
+      <h2>Экипировка</h2>
+      <ul>
+        <li>Одеяние герцога – Дорогое одеяние из крайне плотных и ценных тканей шитое овещенными золотыми нитями - предоставляет феноменальную защиту от магии смерти, и средню защиту от оружия ближнего боя</li>
+        <li>Мизерикордия – тонкий кресто-образный кинжал с лезвием в виде круглого шпиля - простое оружие для самообороны, но украшенное золотом и оформленное в знатном стиле</li>
+      </ul>
+    </div>
+
+    <div class="infobox">
+      <img src="images/Victor-Adnosskiy.png" alt="Виктор Адносский">
+  <p class="infobox-caption">Виктор Адносский</p> <!-- ✅ подпись под изображением -->
+      <table>
+        <tr><td>Государство</td><td>Святая Церковь</td></tr>
+        <tr><td>Город</td><td>Адносс</td></tr>
+        <tr><td>Происхождение</td><td>Знать</td></tr>
+        <tr><td>Тип</td><td>Дружественный НПС</td></tr>
+        <tr><td>Здоровье</td><td>☼☼☼</td></tr>
+        <tr><td>Интеллект</td><td>☼☼☼☼☼</td></tr>
+        <tr><td>Сила</td><td>☼</td></tr>
+        <tr><td>Класс</td><td>Отсутствует</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    Википедия Roses Of Despair, все права защищены.
+  </footer>
+
+</body>
+</html>
