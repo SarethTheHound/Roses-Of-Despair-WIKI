@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Roses Of Despair WIKI</title>
+  <link rel="icon" href="images/rod-icon.png">
   <style>
     @font-face {
       font-family: 'CyrillicGoth';
@@ -12,15 +13,14 @@
     }
 
     body {
-      font-family: CyrillicGoth, sans-serif;
+      font-family: CyrillicGoth;
       margin: 0;
       padding: 0;
-      background-color: black;
+	  background-color: black;
       background-image: url('images/bgimg.png');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
-      color: black;
     }
 
     header {
@@ -30,12 +30,12 @@
       background-position: center;
       color: gold;
       padding: 20px;
-      text-align: center;
+      text-align: left;
       text-shadow: 
         -1px -1px 0 black,
          1px -1px 0 black,
-        -1px  2px 0 black,
-         1px  2px 0 black;
+        -1px  4px 0 black,
+         1px  4px 0 black;
     }
 
     header h1 {
@@ -56,7 +56,7 @@
       background-repeat: no-repeat;
       background-position: center;
       padding: 40px;
-      border-radius: 4px;
+      border-radius: 6px;
       text-align: center;
     }
 
@@ -67,22 +67,25 @@
       font-weight: normal;
       color: black;
       text-shadow: 0 1px 2px black;
+	  font-size: 40px;
     }
 
     /* Сетка для регионов */
     .regions {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
-      margin-top: 20px;
-    }
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;              /* расстояние между блоками */
+  margin: 20px auto;      /* центрируем */
+  max-width: 1000px;      /* ширина сетки */
+  justify-content: center; /* центрируем элементы внутри */
+}
 
     .region {
       text-align: center;
     }
 
     .region img {
-      width: 100%;
+      width: 80%;
       aspect-ratio: 1 / 1; /* квадрат */
       object-fit: cover;
       border: 2px solid black;
@@ -91,7 +94,7 @@
 
     .region p {
       margin-top: 8px;
-      font-size: 14px;
+      font-size: 26px;
       font-weight: bold;
     }
 
@@ -122,44 +125,44 @@
           <p>Каталон</p>
         </div>
         <div class="region">
-          <img src="images/region3.png" alt="Регион 3">
-          <p>Регион 3</p>
+          <img src="images/region3.png" alt="Земли вечного мрака">
+          <p>Земли мрака</p>
         </div>
         <div class="region">
-          <img src="images/region4.png" alt="Регион 4">
-          <p>Регион 4</p>
+          <img src="images/region4.png" alt="Город Авантюристов">
+          <p>Город Авантюристов</p>
         </div>
         <div class="region">
-          <img src="images/region5.png" alt="Регион 5">
-          <p>Регион 5</p>
+          <img src="images/wip.png" alt="Регион 5">
+          <p>В разработке</p>
         </div>
         <div class="region">
-          <img src="images/region6.png" alt="Регион 6">
-          <p>Регион 6</p>
+          <img src="images/wip.png" alt="Регион 6">
+          <p>В разработке</p>
         </div>
         <div class="region">
-          <img src="images/region7.png" alt="Регион 7">
-          <p>Регион 7</p>
+          <img src="images/wip.png" alt="Регион 7">
+          <p>В разработке</p>
         </div>
         <div class="region">
-          <img src="images/region8.png" alt="Регион 8">
-          <p>Регион 8</p>
+          <img src="images/wip.png" alt="Регион 8">
+          <p>В разработке</p>
         </div>
         <div class="region">
-          <img src="images/region9.png" alt="Регион 9">
-          <p>Регион 9</p>
+          <img src="images/wip.png" alt="Регион 9">
+          <p>В разработке</p>
         </div>
         <div class="region">
-          <img src="images/region10.png" alt="Регион 10">
-          <p>Регион 10</p>
+          <img src="images/wip.png" alt="Регион 10">
+          <p>В разработке</p>
         </div>
         <div class="region">
-          <img src="images/region11.png" alt="Регион 11">
-          <p>Регион 11</p>
+          <img src="images/wip.png" alt="Регион 11">
+          <p>В разработке</p>
         </div>
         <div class="region">
-          <img src="images/region12.png" alt="Регион 12">
-          <p>Регион 12</p>
+          <img src="images/wip.png" alt="Регион 12">
+          <p>В разработке</p>
         </div>
       </div>
 	  
@@ -198,9 +201,6 @@
       <img src="images/god8.png" alt="Богиня Судьбы">
       <p>Богиня Судьбы</p>
     </div>
-
-      <h2>Краткая история мира Роз Отчаяния</h2>
-      <p>Розы отчаяния - это мир выфвфыаывф</p>
     </div>
   </div>
 
